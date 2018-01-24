@@ -181,8 +181,8 @@ def main():
     dgwExpectedDifficulty = work2Difficulty(DarkGravityWave3(rawblocks, params))
 
     print "===> Last block: difficulty %f, work: %d" % (pLast.getDifficulty(), pLast.nBits)
-    print "===> If difficulty where to change now, it would be %f using standard method" % expectedDifficulty
-    print "===> If difficulty where to change now, it would be %f using DGWv3" % dgwExpectedDifficulty
+    print "===> If difficulty were to change now, it would be %f using standard method" % expectedDifficulty
+    print "===> If difficulty were to change now, it would be %f using DGWv3" % dgwExpectedDifficulty
 
 if __name__ == '__main__':
     main()
